@@ -1,0 +1,106 @@
+.forgetpass {
+   
+    width: 100%;
+    min-height: 70vh;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.forget-card {
+    width: 500px; /* Adjust width as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+                0px 3px 4px 0px rgb(0 0 0 / 14%), 
+                0px 1px 8px 0px rgb(0 0 0 / 12%);
+    background-color: white;
+    text-align: center;
+  
+}
+.control22 {
+    position: relative;
+    font-size: 20px !important;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px !important;
+    margin-left: 0;
+    background: #edf5f3 !important;
+    /* border: 1px solid #CACACA; */
+    border-radius: 5px;
+    line-height: 25px;
+    height: 35px;
+    width:  355px !important;
+    outline: none !important;
+	padding: 25px  0px 25px 48px !important; 
+    margin: 15px 0 !important;
+  
+}
+.react-tel-input{
+   margin-top:10px;
+   margin-left:54px ;
+}
+.forget-btn {
+    background-color: #279e42 !important; /* A neutral gray color */
+    color: white !important; /* Text color */
+    border: none !important; /* No border */
+    border-radius: 3px; /* Slightly rounded corners */
+    padding: 10px 10px !important; /* Smaller padding for a smaller button */
+    font-size: 14px !important; /* Smaller font size */
+    cursor: pointer  !important; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease !important; /* Smooth transition for background color */
+    margin: 5px !important; 
+    /* width: fit-content !important; */
+    /* Space between buttons */
+}
+
+.forget-btn:hover {
+    background-color: #5a6268 !important; /* Darker gray on hover */
+}
+.forget-btn:focus {
+    outline: none !important; /* Remove outline on focus */
+    box-shadow: 0 0 3px rgba(108, 117, 125, 0.5) !important; /* Add a subtle shadow effect on focus */
+}
+.forgetpass h2 {
+    font-size: 30px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.forgetpass p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.forgetpass form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forgetpass .input {
+    outline: none;
+    border: none;
+    width: 360px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.forgetpass button {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: #3bb19b;
+    border-radius: 20px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}

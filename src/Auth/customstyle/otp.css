@@ -1,0 +1,62 @@
+.otp_container {
+    width: 100%;
+    min-height: 90vh;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.otp_card {
+    width: 400px; /* Adjust width as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+                0px 3px 4px 0px rgb(0 0 0 / 14%), 
+                0px 1px 8px 0px rgb(0 0 0 / 12%);
+    background-color: white;
+    text-align: center;
+    /* height: 300px; */
+}
+
+.otp_header {
+    font-size: 20px; /* Adjust font size as needed */
+    margin-top: 0;
+}
+
+.otp_info {
+    margin: 10px 0;
+}
+
+.otp_inputs {
+    margin-top: 10px;
+}
+
+.otp_input {
+    outline: none;
+    border: none;
+    width: 50%; /* Adjust width as needed */
+    /* padding: 15px; */
+    border-radius: 10px;
+    background-color: #edf5f3;
+    /* font-size: 14px; */
+    text-align: center;
+}
+
+.green_btn {
+    background-color: #3bb19b;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    border-radius: 20px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.otp_resend {
+    margin-top: 20px;
+}

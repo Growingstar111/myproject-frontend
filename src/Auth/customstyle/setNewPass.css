@@ -1,0 +1,59 @@
+h3 {
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+}
+
+#passwordForm {
+  min-height: 100vh;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    padding: 10px !important;
+  }
+  h3 {
+    font-size: 30px;
+  }
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  border-radius: 15px; /* Rounded corners for the card */
+  background-color: #ffffff; /* White background for the card */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.btn {
+  background-color: #3bb19b; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  outline: none; /* No outline */
+  padding: 12px 0; /* Padding for button */
+  border-radius: 20px; /* Rounded corners */
+  width: 180px; /* Fixed width for button */
+  font-weight: bold; /* Bold text */
+  font-size: 14px; /* Font size for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 20px; /* Margin above the button */
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #36a88a; /* Darker shade on hover */
+}
