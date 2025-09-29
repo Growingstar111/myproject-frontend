@@ -1,5 +1,6 @@
 import axios from "axios";
 import { https } from "./baseURL";
+import { http } from "./http";
 
 export const showAllUsers = async (pageNumber) => {
   return await https.get(`/admin/view-customer?page=${pageNumber}`);
@@ -21,25 +22,25 @@ export const viewUSerProfile = async () => {
 }
 
 export const loginUser = async (body) => {
-  return await axios.post("http://localhost:5000/api/login", body);
+  return await http.post("/api/login", body);
 };
 
 export const addUser = async (body) => {
-  return await axios.post("http://localhost:5000/api/register", body);
+  return await http.post("/register", body);
 };
 export const verifyUser = async (values) => {
-  return await axios.post("http://localhost:5000/api/verifyuser", values, {});
+  return await http.post("/verifyuser", values, {});
 };
 export const logoutUser = async () => {
   return await https.delete("/logout");
 };
 
 export const forgetPassword = async (values) => {
-  return await axios.post("http://localhost:5000/api/forgetpassword", values);
+  return await http.post("/forgetpassword", values);
 };
 
 export const setNewPassword = async (values) => {
-  return await axios.put("http://localhost:5000/api/setpassword", values);
+  return await http.put("/setpassword", values);
 };
 // api for getting all products of a comapny
 export const getAllProducts = async () => {
@@ -50,7 +51,7 @@ export const addProduct = async (values) => {
   return await https.post("/product/add-product", values);
 };
 export const getcategories = async () => {
-  return await axios.get("http://localhost:5000/api/product/get-categories");
+  return await http.get("/product/get-categories");
 };
 export const viewSingleProductt = async (id) => {
   return await https.get(

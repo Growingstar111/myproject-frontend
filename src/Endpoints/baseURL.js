@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const https = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://myproject-backend-6.onrender.com/api",
 });
 
 https.interceptors.request.use((config) => {
