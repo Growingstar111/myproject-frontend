@@ -1,5 +1,5 @@
 import React from "react";
-import "./customstyle/SetNewPass.css";
+import "./customstyle/setNewPass.css";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { useMutation } from "@tanstack/react-query";
